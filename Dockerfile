@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install
 
+# Install app express
+RUN npm install express
+
 # Copy the rest of the app files to the container
 COPY . .
 
