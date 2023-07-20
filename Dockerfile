@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install
 
+# Install app ejs
+RUN npm install ejs
+
 # Install app express
 RUN npm install express
 
